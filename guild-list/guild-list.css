@@ -1,0 +1,42 @@
+ul{
+	list-style: none;
+}
+
+thead{
+	background-color: burlywood;
+	color: black;
+}
+
+table tr:nth-child(odd) td{
+    background-color: whitesmoke;
+}
+table tr:nth-child(even) td{
+    background-color:lightyellow;
+}
+
+#list-content{
+	display: flexbox;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: center;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#return-btn{
+	margin: 50px 0;
+}
+
+.list-headings{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.return {
+    text-align: center;
+}

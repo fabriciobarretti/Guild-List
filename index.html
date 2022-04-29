@@ -2,11 +2,23 @@
 <html>
     <head>
         <title>Guild List</title>
+        <link href="index.css" rel="stylesheet">
     </head>
-    <body>
-        <button id="showGuildList">Show all guilds</button>
-        <button id="addGuild">Add a guild</button>
 
+    <body>
+        <div class="show-row">
+            <button id="show-guild-list">Show all guilds</button>
+        </div>
+
+        <div class="find-row">
+            <input id="find-guild" placeholder="Enter guild name">
+            <button id="find-guild-btn">Search</button>
+        </div>
+
+        <div class="add-row">
+            <button id="add-guild">Add a guild</button>
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>

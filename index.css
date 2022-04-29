@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    margin: auto 0 auto 0;
+}
+
+.show-row {
+    padding: 40px 0 20px 0;
+}
+
+.find-row{
+    padding: 20px 0;
+}
+
+.add-row{
+    padding: 20px 0 40px 0;
+    /* border-bottom: 2px solid red;    */
+}
