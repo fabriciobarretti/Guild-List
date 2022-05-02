@@ -15,3 +15,27 @@ body {
     padding: 20px 0 40px 0;
     /* border-bottom: 2px solid red;    */
 }
+
+#list-content{
+	display: flexbox;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: center;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+thead{
+	background-color: burlywood;
+	color: black;
+}
+
+table tr:nth-child(odd) td{
+    background-color: whitesmoke;
+}
+table tr:nth-child(even) td{
+    background-color:lightyellow;
+}
