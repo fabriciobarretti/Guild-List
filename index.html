@@ -6,23 +6,29 @@
     </head>
 
     <body>
-        <div class="show-row">
-                <button id="show-guild-list">Show all guilds</button>
+        <header>
+            <button id="header-btn" href="./index.html">Guild List</button>
+        </header>
+
+        <div id="info-body">
+            
+            <div class="find-row">
+                <input type="text" class="add-guild-input" id="find-guild-input" placeholder="Enter guild name">
+                <button class="big-btn" id="find-guild-btn">Search</button>
+            </div>
+            
+            <div class="show-row">
+                    <button class="big-btn" id="show-guild-list">Show all guilds</button>
+                    <button class="big-btn" id="add-guild-btn">Add a guild</button>
+            </div>
+
+            <!-- <div class="add-row">
+            </div> -->
+
+            <div id="show-content">
+            </div>
         </div>
 
-        <div class="find-row">
-            <input type="text" id="find-guild-input" placeholder="Enter guild name">
-            <button id="find-guild-btn">Search</button>
-        </div>
-
-        <div class="add-row">
-            <button id="add-guild-btn">Add a guild</button>
-        </div>
-
-        <div id="show-content">
-        </div>
-        
-        <script type="text/javascript" src="guildlist.json"></script>
         <script src="index.js"></script>
     </body>
 </html>
